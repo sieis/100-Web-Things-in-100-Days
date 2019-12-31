@@ -1,4 +1,4 @@
-gritHackr100
+#gritHackr100
 Making a web thing a day for 100 days. 
 Inspired by Florin Pop's 100 Projects in 100 Days https://www.florin-pop.com/blog/built-100-projects-in-100-days/
 Beginning December 31st with a work in progress ideas page that contains 23 ideas currently as well as a broken JS voting mechanism
