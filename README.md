@@ -7,4 +7,4 @@ Rules:
 2) Must be a minimum of a web page a day up to as big of a project as I can muster my mind around in one day
 3) An iteration off of what I'm currently learning is acceptable, though it must be a new iteration rather than a copy paste job from a sample project 
 4) Function > Form && isMade > isPretty
-5) Anything more than HTML, CSS and vanilla JS is bonus
+5) Anything more than HTML, CSS and vanilla JS is bonus 
