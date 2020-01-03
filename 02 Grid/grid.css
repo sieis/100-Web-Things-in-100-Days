@@ -1,0 +1,36 @@
+body
+{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button{
+    font-family: 'Nunito Sans', sans-serif;
+    background:none;
+    border: 4 px solid whitesmoke;
+    border-radius: 5px;
+    height: 5em;
+    width: 10em;
+}
+
+/* below came from super helpful quick tutorial from freeCodeCamp
+https://www.freecodecamp.org/news/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431/ */
+
+.wrap{
+    background: none;
+    padding: 20px 20%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(5, 100px);    
+}
+
+#starter{
+    text-align: center;
+    align-content: center;
+    background: red;
+    height: 50px;
+    width: 50px;
+}
