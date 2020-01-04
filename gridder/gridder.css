@@ -1,0 +1,62 @@
+/* responsive grid based on https://www.freecodecamp.org/news/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431/ */
+body{
+    margin: none;
+    padding: none;
+    font-family: 'Stoke', serif;
+    background: #222222;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.wrapper{
+    background: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+ /* i don't think i need the rows line for this */
+    /* grid-template-rows: (auto, auto); */
+    gap: 2px;
+    height: fit-content;
+}
+
+
+.boxes{
+    background: rgb(201, 178, 149);
+    height: 100px;
+    border-radius: 5px;
+}
+
+button{
+    font-family: inherit;
+    color: white;
+}
+#reset{
+    background: rgb(247, 102, 102);
+    padding: none;
+    margin: 5px;
+    font-size: 2em;
+    border-radius: 10px;
+    height: 200px;
+    width: 40%;
+}
+#add{
+    background: rgb(125, 175, 204);
+    padding: none;
+    margin: 5px;
+    font-size: 2em;
+    border-radius: 10px;
+    height: 200px;
+    width: 40%;
+}
+#multiple{
+    background: rgb(125, 206, 156);
+    padding: none;
+    margin: 0 5px;
+    font-size: 2em;
+    border-radius: 10px;
+    height: 200px;
+    width: 40%;
+}
