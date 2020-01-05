@@ -1,0 +1,57 @@
+.main{
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.goodBtn{
+    color: #202020;
+    text-decoration: none;
+    font-kerning: 3px;
+    margin: 0;
+    padding: 2%;
+    min-width: 150px;
+    max-width: 80%;
+    height: fit-content;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 1.4em;
+    font-weight: 700;
+    border: .1px solid #202020;
+    letter-spacing: .1rem;
+    transition: .1s;
+    box-shadow: 3px 3px 6px #202020;
+    text-shadow: 2px 2px 2px #b6b6b6;
+    }
+.goodBtn:hover{
+    background: #202020;
+    color: white;
+    font-size: 1.6rem;
+    box-shadow: 6px 6px 6px #b6b6b6;
+    text-shadow: none;
+    min-width: 175px;
+    max-width: 90%;
+}
+
+.fab, .fa-spotify{
+    font-weight: 100;
+}
+
+
+#foot{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .85em;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    color: #202020;
+}
+
+#foot:hover{
+    font-size: 1.2rem;
+}
