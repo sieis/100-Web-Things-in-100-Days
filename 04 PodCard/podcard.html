@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="podcard.css">
+    <script src="https://kit.fontawesome.com/3aeebcae77.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Stoke&display=swap" rel="stylesheet">
+    <title>podCard</title>
+</head>
+<body>
+    <!--   A card for podcast player and links on my site to replace Bootstrap card deck -->
+    
+    <div class="theCard">
+
+        <!-- title and subtitle -->
+        <div class="name">
+            <p class="title">re-verse</p>
+            <p class="subtitle">music driven scripture</p>
+        </div>
+
+        <!-- buttons for podplayer links -->
+<!--  -->
+<!-- going to have to turn these into anchor tags and redo some css -->
+<!--  -->
+        <div class="links">
+            <button class="players" ><i class="fas fa-broadcast-tower"></i> Overcast</button>
+            <button class="players" ><i class="fas fa-podcast"></i> Apple Podcasts</button>
+            <button class="players"><i class="fab fa-spotify"></i> Spotify</button>
+            <button class="players"><i class="fab fa-google-play"></i> Google Podcasts</button>
+        </div>
+
+        <!-- embeded from transistor -->
+        <div class="stream">
+            <p class="writing">stream latest episode:</p>
+            <iframe src='https://share.transistor.fm/e/re-verse/latest' width='100%' height='180' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:180px;'></iframe>
+        </div>
+    </div>
+    <a id="foot" href="https://eamonncottrell.com/gritHackr100.html">part of Eamonn's gritHackr100 challenge</a>
+</body>
+</html>
