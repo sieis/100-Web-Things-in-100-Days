@@ -1,0 +1,96 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    margin: 10px 0 0 0;
+    font-size: 3em;
+    padding: 0;
+}
+h2{
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+.top{
+    margin: 0;
+    padding: 0;
+    background: #86c6f1;
+    height: 225px;
+}
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+.order{
+    margin: 30px 0 0 0;
+}
+/* navigation items */
+.navigation{
+    grid-template-columns: auto;
+    transition: .7s;
+}
+
+.navigation a:hover{
+    /* font-size: 1.2em; */
+    color: #86c6f1;
+    text-shadow: 0px 2px 2px #86c6f1;
+}
+
+a{
+    text-decoration: none;
+    color: #30343c;
+    padding: 0 4px;
+    margin: 0;
+}
+
+#brand{
+    font-size: 1.4em;
+    padding: 0 30px 0 0;
+}
+#contact{
+    margin-right: 0;
+    /* margin: auto; */
+}
+
+/* end navigation items */
+
+#header{
+    box-shadow: 2px 2px 15px #333333;
+    height: 400px;
+    border-radius: 6px;
+}
+
+#orderonline{
+    font-size: 2em;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 15px #333333;
+    margin: 2% 0;
+    transition: .2s; 
+}
+
+#orderonline:hover{
+    background: #86c6f1;
+    color: white;
+}
+
+img{
+    margin: 2% 0;
+}
+
+#mail{
+    font-family: 'Nunito Sans', sans-serif;
+}
+form{
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+input{
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 6px;
+    width: 150px;
+}
+#mailchimp{
+    width:25%;
+}
