@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="paper-full.js"></script>
+    <script type="text/javascript" src="circleGrid.js"></script>
+    <script type="text/paperscript" canvas="myCanvas">
+    //make dem circles
+    circles();
+    // randomCircles(100);
+
+    //make grid circles
+    function circles(){
+        for(j=0; j<1000; j+=100){
+            for(i=0; i<1000; i+=100){
+            var circle2 = new Path.Circle(new Point(i, j), 10);
+            circle2.fillColor = 'white';
+            };
+        }
+
+    };
+
+    // make random coordinates for circles
+    // function randomCircles(num){
+    //     for(i=0; i<num; i++){
+    //         var circle2 = new Path.Circle(new Point(rando(), rando()), 10);
+    //         circle2.fillColor = 'white';
+    //     };
+    // };
+
+    //to make random coordinates between 1 and 1000
+    function rando(){
+        return Math.floor(Math.random()*1000);
+    };
+    </script>
+    
+    <link rel="stylesheet" href="circles.css">
+    <title>Circle Grid</title>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+</body>
+</html>
