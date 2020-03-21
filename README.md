@@ -1,6 +1,4 @@
-# gritHackr100
-
-# 3/20/20 UPDATE:
+# gritHackr100 3/20/20 UPDATE:
 As the COVID-19 fear and virus sweep over the earth, I continue on my quest, and I have now delved into MongoDB and the first two versions of a full YelpCamp web application in Colt's Udemy course. Myself and, I'm sure, thousands of others before me. Beginning to reach out to actual developers now to hopefully spark some kinships, find some inspiration and discover a calling, a path, a vision for what things I will myself create.
 
 2/20/20 UPDATE:
